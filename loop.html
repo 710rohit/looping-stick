@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotate</title>
+    <style>
+    .ob{
+        height: 400px;
+        width: 12px;
+        margin-left: 650px;
+        margin-top: 100px;
+        border: 3px solid black;
+        animation-name: rotate;
+        animation-duration:.1s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes rotate {
+
+        10%{
+            transform: rotate(36deg);
+        }
+        20%{
+            transform: rotate(72deg);
+        }
+        30%{
+            transform: rotate(108deg);
+        }
+        40%{
+            transform: rotate(144deg);
+        }
+        50%{
+            transform: rotate(180deg);
+
+        }
+        60%{ transform: rotate(216deg);
+
+        }
+        70%{ transform: rotate(252deg);
+
+        }
+        80%{ transform: rotate(288deg);
+
+        }
+        90%{ transform: rotate(324deg);
+
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="ob"></div>
+</body>
+</html>
